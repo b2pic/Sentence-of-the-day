@@ -23,6 +23,7 @@ body{
     width: 800px;
     height: 400px;
     border-radius: 4%;
+    opacity: 0.7;
 }
 
 #sentence-of-the-day{
@@ -31,4 +32,34 @@ body{
  top: 150px;
  font-family: Arial, Helvetica, sans-serif;
  font: 1.13em sans-serif;
+ font-weight: bold;
+}
+
+button{
+    width:100px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 1em sans-serif;
+    position: relative;
+    top: 80px;
+    left: 550px;
+    background-color: #EBDEF0;
+    opacity: 0.5;
+}
+button:hover{
+  opacity: 1;
+  background-color: bisque;
+
+}
+
+#title{
+    background-color: black;
+    width: 380px;
+    height: auto;
+    padding-left: 2rem;
+    border-radius: 2rem;
+    opacity: 0.5;
+}
+h1{
+    font-family: Verdana, Tahoma, sans-serif;
 }
